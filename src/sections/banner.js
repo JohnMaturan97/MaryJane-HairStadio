@@ -11,18 +11,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Digital Products To Explore
+            Welcome To Mary Jane Hair Studio
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+          Providing you, our valued client, with exceptional service
           </Text>
-          <Button variant="primary">Explore</Button>
+          {/* <Button variant="primary">Explore</Button> */}
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
+          {/* <Image src={BannerImg} alt="banner" /> */}
         </Box>
       </Container>
     </section>

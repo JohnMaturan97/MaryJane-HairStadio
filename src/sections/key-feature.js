@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Cut. Color. Enhance.',
+    title: 'Cut. Color. Enhance.',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We’re the salon that can do it all. Cut, color, dip, dry, and care.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Cutting edge hair design',
+    title: 'Cutting edge hair design',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Cutting edge cuts, the latest styles, and professional expertise.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'We make it shine',
+    title: 'We make it shine',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We use the best products to leave your hair shiny and healthy.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Beautiful hair begins here',
+    title: 'Beautiful hair begins here',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We are what you’d call the ultimate makeover.',
   },
 ];
 
@@ -48,8 +48,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Meet the feature of product"
+          slogan="Beautiful hair is healthy hair."
+          title="Say goodbye to bad hair days!"
         />
 
         <Grid sx={styles.grid}>

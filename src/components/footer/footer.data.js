@@ -7,26 +7,26 @@ export default {
     {
       id: 1,
       iconSrc: Chat,
-      altText: 'Community',
-      title: 'Join the Community',
+      altText: 'Contact',
+      title: 'Contact',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        '704-430-5510',
     },
     {
       id: 2,
       iconSrc: Community,
-      altText: 'Chat',
-      title: 'Chat Communication',
+      altText: 'Location',
+      title: 'Location',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        'Location',
     },
     {
       id: 3,
       iconSrc: Github,
-      altText: 'Github',
-      title: 'Github Access',
+      altText: 'Under Construction',
+      title: 'Under Construction',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        'Our Website is online but still in work progress. Some content might not be available. Thank you for the support and your understanding.',
     },
   ],
   menuItem: [

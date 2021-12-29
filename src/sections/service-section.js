@@ -22,24 +22,24 @@ import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: 'Every hair counts.',
+  title: 'Life is short, cut it!',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Picture-perfect hair!',
+      title: 'Picture-perfect hair!',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Your hair won’t just look good, it’ll feel good too.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Personalize your style and beauty',
+      title: 'Personalize your style and beauty',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'The perfect place for getting beautiful and staying that way!',
     },
   ],
 };

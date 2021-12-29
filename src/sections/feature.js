@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'You are worth it',
+    title: 'You are worth it',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Good service and reasonable prices, guaranteed! Look good, feel great!',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Your hair, our passion',
+    title: 'Your hair, our passion',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'We are passionate about making you look your best.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'We can handle all your hair needs',
+    title: 'We can handle all your hair needs',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'We will make your hair so glamorous that people will turn their heads.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'The hair salon that cares',
+    title: 'The hair salon that cares',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Finally, a hair salon that understands you.',
   },
 ];
 
@@ -49,7 +49,7 @@ export default function Feature() {
       <Container>
         <SectionHeader
           slogan="Quality features"
-          title="Amazing useful features"
+          title="All about you!"
         />
 
         <Grid sx={styles.grid}>
