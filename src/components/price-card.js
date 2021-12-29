@@ -8,7 +8,6 @@ export default function PriceCard({
     name,
     description,
     priceWithUnit,
-    buttonText = 'Start Free Trial',
     anotherOption,
     points,
   },
@@ -31,7 +30,7 @@ export default function PriceCard({
           {priceWithUnit}
           {/* <span>/Monthly</span> */}
         </Text>
-        <Box sx={styles.buttonGroup}>
+        {/* <Box sx={styles.buttonGroup}>
           <Button variant="primary" aria-label={buttonText}>
             {buttonText}
           </Button>
@@ -44,7 +43,7 @@ export default function PriceCard({
               {anotherOption}
             </Button>
           )}
-        </Box>
+        </Box> */}
       </Box>
     </Card>
   );

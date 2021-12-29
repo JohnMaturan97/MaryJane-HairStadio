@@ -9,12 +9,12 @@ import SectionHeader from 'components/section-header';
 import { IoIosCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
 
 const packages = {
-  monthly: [
+  male: [
     {
       id: 1,
-      name: 'Free Plan',
+      name: 'Male 1',
       description: 'For Small teams or office',
-      buttonText: 'Start free trail',
+      // buttonText: 'Start free trail',
       priceWithUnit: '$0',
       points: [
         {
@@ -45,10 +45,10 @@ const packages = {
     },
     {
       id: 2,
-      name: 'Business king',
+      name: 'Male 2',
       description: 'For Enterprise business',
       priceWithUnit: '$15',
-      buttonText: 'Create account',
+      // buttonText: 'Create account',
       anotherOption: 'Or Start 14 Days trail',
       points: [
         {
@@ -81,10 +81,10 @@ const packages = {
       id: 3,
       header: 'Suggested',
       headerIcon: <IoIosCheckmarkCircle />,
-      name: 'Pro Master',
+      name: 'Male 3',
       description: 'For pro level developers',
       priceWithUnit: '$24',
-      buttonText: 'Create account',
+      // buttonText: 'Create account',
       anotherOption: 'Or Start 14 Days trail',
       points: [
         {
@@ -114,12 +114,12 @@ const packages = {
       ],
     },
   ],
-  annual: [
+  female: [
     {
       id: 1,
       name: 'Free Plan',
       description: 'For Small teams or office',
-      buttonText: 'Start free trail',
+      // buttonText: 'Start free trail',
       priceWithUnit: '$0',
       points: [
         {
@@ -153,7 +153,7 @@ const packages = {
       name: 'Business king',
       description: 'For Enterprise business',
       priceWithUnit: '$25',
-      buttonText: 'Create account',
+      // buttonText: 'Create account',
       anotherOption: 'Or Start 10 Days trail',
       points: [
         {
@@ -189,7 +189,7 @@ const packages = {
       name: 'Pro Master',
       description: 'For pro level developers',
       priceWithUnit: '$39',
-      buttonText: 'Create account',
+      // buttonText: 'Create account',
       anotherOption: 'Or Start 10 Days trail',
       points: [
         {
@@ -240,24 +240,24 @@ const responsive = {
 };
 
 export default function Package() {
-  const { monthly, annual } = packages;
+  const { male, female } = packages;
   const [state, setState] = useState({
-    active: 'monthly',
-    pricingPlan: monthly,
+    active: 'male',
+    pricingPlan: male,
   });
 
   const handlePricingPlan = (plan) => {
-    if (plan === 'annual') {
+    if (plan === 'female') {
       setState({
         ...state,
-        active: 'annual',
-        pricingPlan: annual,
+        active: 'female',
+        pricingPlan: female,
       });
     } else {
       setState({
         ...state,
-        active: 'monthly',
-        pricingPlan: monthly,
+        active: 'male',
+        pricingPlan: male,
       });
     }
   };
@@ -295,20 +295,20 @@ export default function Package() {
         <Flex sx={styles.buttonGroup}>
           <Box sx={styles.buttonGroupInner}>
             <button
-              className={state.active === 'monthly' ? 'active' : ''}
+              className={state.active === 'male' ? 'active' : ''}
               type="button"
-              aria-label="Monthly"
-              onClick={() => handlePricingPlan('monthly')}
+              aria-label="male"
+              onClick={() => handlePricingPlan('male')}
             >
-              MALE
+              Male
             </button>
             <button
-              className={state.active === 'annual' ? 'active' : ''}
+              className={state.active === 'female' ? 'active' : ''}
               type="button"
-              aria-label="Annual"
-              onClick={() => handlePricingPlan('annual')}
+              aria-label="female"
+              onClick={() => handlePricingPlan('female')}
             >
-              FEMALE
+              Female
             </button>
           </Box>
         </Flex>
