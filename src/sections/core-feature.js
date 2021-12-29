@@ -3,7 +3,7 @@ import { jsx, Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import FeatureThumb from 'assets/core-feature.png';
+import FeatureThumb from 'assets/core-feature.jpg';
 import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
