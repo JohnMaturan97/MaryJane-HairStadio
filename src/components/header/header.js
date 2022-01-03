@@ -37,7 +37,7 @@ export default function Header({ className }) {
               variant="secondary"
               aria-label="Get Started"
             >
-              Call and book
+              Call Now
             </Button>
           </a>
 
