@@ -20,13 +20,13 @@ const packages = {
         {
           id: 1,
           icon: <IoIosCut />,
-          text: 'Mens Haircur : $20',
+          text: 'Mens Haircut : $20',
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCut />,
-          text: "$10 : 1,000's of Templates",
+          text: "Womens Haircut : $50",
           isAvailable: true,
         },
         {
